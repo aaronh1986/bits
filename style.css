@@ -16,10 +16,12 @@ body {
     font-family: 'Roboto:ital', serif;
     color: #00FFFF;
     transform: scaleY(1.75);
+    transition: 1s;
+    letter-spacing: 2px;
 }
 
 .logo:hover {
-    transform: scaleY(1.8);
+    transform: scaleY(1.82);
 }
 
 #topnav {
