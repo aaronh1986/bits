@@ -14,16 +14,35 @@ body {
 
 .logo {
     font-family: 'Roboto:ital', serif;
-    color: #00FFFF;
-    transform: scaleY(1.75);
-    transition: 1s;
+    color: #ff0022; /* #00FFFF */
+    transition: .2s;
     letter-spacing: 2px;
 }
 
 .logo:hover {
-    transform: scaleY(1.82);
+    transform: scale(1.03);
 }
 
-#topnav {
+.input-box {
+    background-color: #011627 !important;
+    color: #fdfffc !important;
+}
+
+header {
     background-color: black !important;
+}
+
+.collapse ul {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    position: relative;
+    left: 0;
+}
+
+.icon {
+    color: #fdfffc;
 }
