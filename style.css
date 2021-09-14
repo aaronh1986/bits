@@ -15,6 +15,11 @@ body {
 .logo {
     font-family: 'Roboto:ital', serif;
     color: #00FFFF;
+    transform: scaleY(1.75);
+}
+
+.logo:hover {
+    transform: scaleY(1.8);
 }
 
 #topnav {
