@@ -46,3 +46,7 @@ form {
 .icon {
     color: #fdfffc;
 }
+
+ul .nav-link {
+    color: #b91372 !important;
+}
