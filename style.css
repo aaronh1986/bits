@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    background-color: black !important;
+    background-color: #011627 !important;
 }
 
 .collapse ul {
@@ -49,4 +49,16 @@ form {
 
 ul .nav-link {
     color: #b91372 !important;
+    transition: .1s;
+}
+
+ul .nav-link:hover {
+    color: #ff0022 !important;
+    transform: scale(1.03);
+}
+
+img #mg-logo {
+    font-size: .1rem;
+    padding: 0;
+    margin: 0;
 }
