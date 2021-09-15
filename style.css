@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
 
+/*---Navbar--------------------------------------------------------------*/
+
 body {
     margin: 0;
     padding: 0;
@@ -73,3 +75,39 @@ img #mg-logo {
     font-size: 15px;
 }
 
+/*---Footer--------------------------------------------------------------*/
+
+footer {
+    background-color: #011627 !important;
+}
+
+.social {
+    font-size: 2rem;
+    color: #b91372 !important;
+}
+
+.social:hover {
+    color: #41ead4 !important;
+}
+
+#copyright {
+    color: #b91372 !important;
+}
+
+.relative {
+    position: relative;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+/* Make sure to delete ac below */
+.ac {
+    height: 500px;
+    width: 500px;
+}
