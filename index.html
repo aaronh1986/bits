@@ -12,14 +12,30 @@
     <header class="container-fluid fixed-top">
       
       <div id="topnav" class="row py-2">
-      <div class="col-4 ">
-        <ul class="navbar-nav w-auto mx-auto flex-row justify-content-center">
+      <div class="col-4">
+        <ul class="navbar-nav w-auto flex-row justify-content-left">
+
           <li class="nav-item dropdown">
-                <a class="logo-font font-weight-bold nav-link mr-5" href="#" id="all-products-link"
+                <a class="logo-font upper-items font-weight-bold nav-link mr-5" href="#" id="all-products-link"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  All Products
+                  Contact
                 </a>
           </li>
+
+          <li class="nav-item dropdown">
+            <a class="logo-font upper-items font-weight-bold nav-link mr-5" href="#" id="all-products-link"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Info
+            </a>
+          </li>
+
+      <li class="nav-item dropdown">
+        <a class="logo-font upper-items font-weight-bold nav-link" href="#" id="all-products-link"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Postage
+        </a>
+      </li>
+
         </ul>
       </div>
 
@@ -29,7 +45,13 @@
                     <h2 class="logo my-0"><strong>MUSIC GATE</strong></h2>
                 </a>
             </div>
-          </div>
+          
+        <!--Free shipping announcement-->
+        <div class="col-4 flex-row justify-content-right py-2">
+            <span class="free-shipping"><strong>Free postage on orders over €50</strong></span>
+        </div>
+      </div>
+
         <!--Search Bar-->
         <div class="col-6 my-0 pt-1 pb-3 container-fluid">
           <form method="GET" action="">

@@ -62,3 +62,13 @@ img #mg-logo {
     padding: 0;
     margin: 0;
 }
+
+.upper-items {
+    font-size: 14px;
+}
+
+.free-shipping {
+    color: #b91372 !important;
+    float: right;
+    font-size: 15px;
+}
