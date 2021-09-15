@@ -14,7 +14,7 @@ body {
 
 .logo {
     font-family: 'Roboto:ital', serif;
-    color: #ff0022; /* #00FFFF */
+    color: #b91372; /* #00FFFF */
     transition: .2s;
     letter-spacing: 2px;
 }
@@ -72,3 +72,4 @@ img #mg-logo {
     float: right;
     font-size: 15px;
 }
+
