@@ -87,6 +87,11 @@ img #mg-logo {
     font-size: 15px;
 }
 
+.dropdown-menu {
+    background-color: #011627 !important;
+    color: #b91372 !important;
+}
+
 /*---Footer--------------------------------------------------------------*/
 
 footer {
