@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
-
-/*---Navbar--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Arbutus&family=Londrina+Outline&family=Monofett&family=New+Rocker&family=Pirata+One&family=Roboto:ital,wght@0,500;1,500&family=Sonsie+One&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    position: relative;
 }
+
+/*---Header--------------------------------------------------------------*/
+
 
 .logo-container {
     display: flex;
@@ -15,10 +17,10 @@ body {
 }
 
 .logo {
-    font-family: 'Roboto:ital', serif;
+    font-family: 'Sonsie one', serif;
     color: #b91372; /* #00FFFF */
     transition: .2s;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 .logo:hover {
@@ -79,6 +81,9 @@ img #mg-logo {
 
 footer {
     background-color: #011627 !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .social {
