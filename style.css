@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Roboto:ital,wght@0,500;1,500&family=Sonsie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Roboto:wght@700&family=Roboto:ital,wght@0,500;1,500&family=Sonsie+One&display=swap');
 
 body {
     margin: 0;
@@ -54,7 +54,8 @@ form {
 ul .nav-link {
     color: #b91372 !important;
     transition: .1s;
-    font-family: 'Roboto', serif;
+    font-family: 'Tenor sans', serif;
+    font-weight: bolder;
 }
 
 ul .nav-link:hover {
@@ -70,19 +71,19 @@ img #mg-logo {
 
 .upper-items {
     font-size: 14px;
-    font-family: 'Roboto', serif;
+    font-family: 'Tenor sans', serif;
 }
 
 .free-shipping {
     color: #b91372 !important;
     float: right;
     font-size: 15px;
-    font-family: 'Roboto', serif;
+    font-family: 'Tenor sans', serif;
 }
 
 .phone {
     color: #b91372 !important;
-    font-family: 'Roboto', serif;
+    font-family: 'Tenor sans', serif;
     line-height: 2;
     font-size: 15px;
 }
