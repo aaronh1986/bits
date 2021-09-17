@@ -18,7 +18,7 @@ body {
 
 .logo {
     font-family: 'Sonsie one', serif;
-    color: #ff9f1c; /* #00FFFF */
+    color: black; /* #00FFFF */
     transition: .2s;
     letter-spacing: 4px;
     font-size: 2.9rem;
@@ -29,12 +29,12 @@ body {
 }
 
 .input-box {
-    background-color: #ff9f1c !important;
-    color: #122c34 !important;
+    background-color: black !important; /* #ff9f1c */
+    color: #f7f7f2 !important;
 }
 
 .icon {
-    color: #122c34;
+    color: #f7f7f2;
 }
 
 header {
@@ -54,11 +54,11 @@ form {
 }
 
 .input-group-append {
-    background-color: #ff9f1c;
+    background-color: black;
 }
 
 ul .nav-link {
-    color: #ff9f1c !important;
+    color: black !important;
     transition: .1s;
     font-family: 'Tenor sans', serif;
     font-weight: bolder;
@@ -82,7 +82,7 @@ img #mg-logo {
 }
 
 .free-shipping {
-    color: #ff9f1c !important;
+    color: black !important;
     float: right;
     font-size: 1.2rem;
     font-family: 'Tenor sans', serif;
